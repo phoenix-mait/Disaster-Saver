@@ -8,6 +8,8 @@ mongoose.connect(
   { useMongoClient: true }
 );
 
+// No products list is needed
+
 var products = [
   new Product({
     imgPath: "/images/fifa.jpg",
